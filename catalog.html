@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended Catalog Showroom | Phlakes Fabrics</title>
+    
+    <!-- 🟢 CONFIGURABLE FAVICON ASSET SLOTS -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="images/Logo.jfif">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .tab-btn.active { background: #C29B0C !important; color: #FFF !important; }
+        .checkout-btn { background: #C29B0C !important; }
+        .floating-cart-icon { background: #C29B0C !important; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">Phlakes Fabrics</a></div>
+        <div class="search-wrapper"><input type="text" id="catalog-search" placeholder="Search catalog elements instantly..."></div>
+    </header>
+    <div class="tab-container">
+        <button class="tab-btn active" data-category="all" style="background:#C29B0C; color:#FFF;">✨ View All Collections</button>
+        <button class="tab-btn" data-category="emirati silk">EMIRATI SILK</button>
+        <button class="tab-btn" data-category="mubaraka suiting">MUBARAKA SUITING</button>
+        <button class="tab-btn" data-category="tesini">TESINI</button>
+    </div>
+    <main class="menu-container">
+        <div id="search-fallback" class="search-fallback-card" style="display: none;">
+            <h3>Product Model Not Located</h3>
+            <p>No catalog elements matched that query parameter block. Try looking into another active collection group.</p>
+            <button id="reset-catalog-btn" class="cta-btn" style="background:#C29B0C; margin-top:10px;">Reset System View</button>
+        </div>
+        
+        <section class="menu-category" data-section-category="emirati silk">
+            <h2 class="category-title" style="border-left:4px solid #C29B0C;">EMIRATI SILK Showcase Matrix</h2>
+            <div class="menu-grid" id="grid-emirati silk"></div>
+        </section>
+        <section class="menu-category" data-section-category="mubaraka suiting">
+            <h2 class="category-title" style="border-left:4px solid #C29B0C;">MUBARAKA SUITING Showcase Matrix</h2>
+            <div class="menu-grid" id="grid-mubaraka suiting"></div>
+        </section>
+        <section class="menu-category" data-section-category="tesini">
+            <h2 class="category-title" style="border-left:4px solid #C29B0C;">TESINI Showcase Matrix</h2>
+            <div class="menu-grid" id="grid-tesini"></div>
+        </section>
+        
+        <section style="margin-top:60px; padding:40px; background:#F4F7F5; border-radius:12px; border:1px solid #D1E0DB;">
+            <h3 style="color:#C29B0C; font-weight:800; margin-bottom:12px;">🌾 Pro-Tier Fractional Sourcing Operations Checklist</h3>
+            <p style="font-size:0.9rem; color:#555; margin-bottom:25px; line-height:1.5;">Our ordering framework natively respects micro-fraction aggregates. Fabric and textile operations can utilize the capsule increment controllers on any card item to configure fine float decimals (e.g. 1.5, 3.5, 10.5 yards or bundles) with automatic real-time price scaling models before checkout transmission pathways launch.</p>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; font-size:0.85rem; color:#444;">
+                <div>✔️ <strong>Frictionless Ordering:</strong> Zero login credentials required to bundle your item checklist.</div>
+                <div>✔️ <strong>Automated Multipliers:</strong> System totals scale immediately based on unit item quantity adjustments.</div>
+            </div>
+        </section>
+    </main>
+    <div id="cart-drawer" class="cart-drawer">
+        <div class="cart-header"><h3>Active Order Manifest</h3><span id="close-cart" class="close-cart-btn">&times;</span></div>
+        <div id="cart-items-container" class="cart-items-list"><p class="empty-cart-msg">Your selection basket matrix is completely empty. Select items below to begin building your operational manifest invoice lines.</p></div>
+        <div class="cart-footer">
+            <div class="total-row"><span>Total Compiled Balance:</span><span id="cart-total-price">₦0</span></div>
+            <button id="whatsapp-checkout-btn" class="checkout-btn" disabled>Dispatch Order Sheet to WhatsApp Counter</button>
+        </div>
+    </div>
+    <button id="floating-cart-badge" class="floating-cart-icon">🛒 <span id="cart-count">0</span></button>
+    <script src="script.js"></script>
+</body>
+</html>

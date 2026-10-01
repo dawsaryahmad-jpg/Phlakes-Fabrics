@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Blue Emirati Silk",
+        "price": 8000,
+        "cat": "emirati silk",
+        "image": "images/Blue_Emirati_Silk.jpeg"
+    },
+    {
+        "name": "White Emirati Silk",
+        "price": 8000,
+        "cat": "emirati silk",
+        "image": "images/White_Emirati_Silk.jpeg"
+    },
+    {
+        "name": "Deep Blue Mubaraka",
+        "price": 10000,
+        "cat": "mubaraka suiting",
+        "image": "images/Deep_Blue_Mubaraka.jpeg"
+    },
+    {
+        "name": "Gold Mubaraka",
+        "price": 10000,
+        "cat": "mubaraka suiting",
+        "image": "images/Gold_Mubaraka.jpeg"
+    },
+    {
+        "name": "White Tesini",
+        "price": 10000,
+        "cat": "tesini",
+        "image": "images/white-Tesini.jpeg"
+    }
+]
