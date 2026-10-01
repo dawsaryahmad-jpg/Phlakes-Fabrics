@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 msg += (idx+1) + ". *" + item.name + "* " + modeLabel + " - " + CURR_SYMBOL + s.toLocaleString() + "\n";
             });
             msg += "\n💰 *Total Invoice Balance:* " + CURR_SYMBOL + tot.toLocaleString();
-            const whatsappURL = "https://wa.me" + MERCHANT_GATE + "?text=" + encodeURIComponent(msg);
+            const whatsappURL = "https://wa.me/" + MERCHANT_GATE + "?text=" + encodeURIComponent(msg);
             window.location.href = whatsappURL;
         });
     }
@@ -198,4 +198,4 @@ document.addEventListener("DOMContentLoaded", async () => {
         }, { threshold: 0.01, rootMargin: "0px 0px 40px 0px" });
         reveals.forEach(el => obs.observe(el));
     }
-});";
+});
