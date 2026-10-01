@@ -15,7 +15,7 @@ header nav a { text-decoration:none; color:#555; font-weight:600; margin-left:20
 header nav a.active, header nav a:hover { color:var(--primary-color); }
 .search-wrapper input { width:250px; padding:10px 15px; border-radius:20px; border:1px solid #DCDCDC; outline:none; transition:var(--transition); }
 .search-wrapper input:focus { border-color:var(--primary-color); width:300px; }
-.hero { background:linear-gradient(135deg, rgba(10,15,13,0.92) 0%, rgba(5,8,7,0.96) 100%); color:var(--white); text-align:center; padding:90px 24px; }
+.hero {background-image: url(images/Hero_img.jpeg); color:var(--white); text-align:center; padding:90px 24px; }
 .hero h1 { font-size:2.5rem; margin-bottom:15px; }
 .hero .whatsapp-color { color:var(--accent-color); }
 .hero p { font-size:1.1rem; max-width:700px; margin:0 auto 30px; opacity:0.9; }
