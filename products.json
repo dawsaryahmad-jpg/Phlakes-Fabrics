@@ -3,13 +3,13 @@
         "name": "Blue Emirati Silk",
         "price": 8000,
         "cat": "emirati silk",
-        "image": "images/Blue_Emirati_Silk.jpeg"
+        "image": "images/Deep_Blue_Mubaraka.jpeg"
     },
     {
         "name": "White Emirati Silk",
         "price": 8000,
         "cat": "emirati silk",
-        "image": "images/White_Emirati_Silk.jpeg"
+        "image": "images/Gold_Mubaraka.jpeg"
     },
     {
         "name": "Deep Blue Mubaraka",
@@ -27,6 +27,6 @@
         "name": "White Tesini",
         "price": 10000,
         "cat": "tesini",
-        "image": "images/white-Tesini.jpeg"
+        "image": "images/white_tesini.jpeg"
     }
 ]
